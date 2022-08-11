@@ -1,0 +1,41 @@
+.social-network-list {
+  display: flex;
+  justify-content: center;
+}
+
+.social-network-list-team {
+  padding-bottom: 30px;
+}
+
+.social-network-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-network-link {
+  display: flex;
+
+  width: 44px;
+  height: 44px;
+
+  color: var(--color-icon);
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  transition-property: color, background-color;
+  transition-duration: var(--timing-duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.social-network-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}

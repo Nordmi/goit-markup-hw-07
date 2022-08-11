@@ -1,0 +1,44 @@
+.footer {
+  background-color: var(--background-footer);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.address {
+  display: flex;
+  font-style: normal;
+}
+
+.address-item {
+  margin-bottom: 9px;
+}
+
+.address-list .address-item + .address-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.address-link {
+  color: var(--primary-white-color);
+
+  line-height: 1.71;
+}
+
+.address .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  color: var(--color-address-link-footer);
+
+  font-weight: inherit;
+  letter-spacing: 0.03em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

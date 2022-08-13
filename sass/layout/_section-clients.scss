@@ -5,11 +5,11 @@
   color: inherit;
 }
 
-.clients-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link {
+.clients-list__link {
   display: flex;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -30,6 +30,6 @@
   }
 }
 
-.icon-clients {
+.clients-list__icon {
   fill: currentColor;
 }

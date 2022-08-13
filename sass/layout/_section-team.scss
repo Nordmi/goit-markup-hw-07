@@ -11,7 +11,7 @@
   line-height: 1.19;
 }
 
-.team-item {
+.team-list__item {
   margin-right: 30px;
 
   background-color: var(--primary-white-color);
@@ -25,11 +25,11 @@
   }
 }
 
-.team-img {
+.team__image {
   padding-bottom: 30px;
 }
 
-.team-subtitle {
+.team__subtitle {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.team-text {
+.team__text {
   margin-bottom: 16px;
 
   color: var(--primary-text-color);

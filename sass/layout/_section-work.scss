@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.work-item {
+.work-list__item {
   margin-right: 30px;
 
   &:last-of-type {
@@ -10,11 +10,11 @@
   }
 }
 
-.work-wrap {
+.work__content {
   position: relative;
 }
 
-.work-name-img {
+.work__name {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -33,15 +33,3 @@
   text-align: center;
 }
 
-.work-section,
-.team-section {
-  padding-top: 0;
-}
-
-.section-title {
-  margin-bottom: 50px;
-
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}

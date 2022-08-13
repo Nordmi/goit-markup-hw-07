@@ -1,4 +1,4 @@
-.subscribe-title {
+.form-subscribe__title {
   display: block;
   margin-bottom: 20px;
   color: #ffffff;
@@ -8,11 +8,11 @@
   text-transform: uppercase;
 }
 
-.mail-label {
+.form-subscribe__mail-label {
   display: inline-block;
 }
 
-.mail-form {
+.form-subscribe__input {
   margin-right: 12px;
 
   padding: 15px 15px 16px;
@@ -37,7 +37,7 @@
   }
 }
 
-.button-position {
+.button-pos {
   display: flex;
   align-items: center;
 }
@@ -64,7 +64,7 @@
   }
 }
 
-.subscribe-text {
+.button-submit__text {
   margin-right: 10px;
 
   color: var(--primary-white-color);
